@@ -29,10 +29,10 @@ import GetUserTweets from "./Dashbord/tweeter/GetUserTweets";
 import CreateTweet from "./Dashbord/tweeter/CreateTweet";
 import Subscribers from "./subscriber/Subscribers";
 import Subscriptions from "./subscriber/Subscriptions";
-// import axios from 'axios';
+import axios from 'axios';
 
-// axios.defaults.baseURL = 'http://localhost:8000/api/v1';
-// axios.defaults.withCredentials = true;
+axios.defaults.baseURL = 'http://localhost:8000/api/v1';
+axios.defaults.withCredentials = true;
 
 const Home = () => {
   return (
